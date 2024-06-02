@@ -1,0 +1,31 @@
+/* Stylesheet for Odin Recipes */
+
+* {
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+h1 {
+    color: hsl(112, 35%, 35%);
+}
+
+h2 {
+    color: hsl(112, 35%, 25%);
+}
+
+a {
+    color: rgba(0, 0, 255, 0.578);
+    text-decoration: none;
+}
+
+nav {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul.ingredients {
+    list-style-image: url('./images/tomatoicon.png') ;
+}
